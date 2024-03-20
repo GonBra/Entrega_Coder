@@ -25,6 +25,7 @@
 header {
   position: sticky;
   top: 0px;
+  z-index: 1000;
 }
 header a {
   color: #ffedd7;
@@ -76,6 +77,9 @@ footer h5 {
 }
 
 #galeria img {
+  box-shadow: -1px -2px 5px 5px rgba(0, 0, 0, 0.58);
+  -webkit-box-shadow: -1px -2px 5px 5px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: -1px -2px 5px 5px rgba(0, 0, 0, 0.58);
   width: 100%;
   border-radius: 5px;
   margin-bottom: 25px;
